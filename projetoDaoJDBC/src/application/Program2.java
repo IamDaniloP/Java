@@ -27,7 +27,7 @@ public class Program2 {
     System.out.println("TEST 4 --- Update");
     System.out.println();
     obj.setName("Cleitinh232323o");
-    obj.setId(6);
+    obj.setId(8);
     department.update(obj);
     System.out.println();
 
