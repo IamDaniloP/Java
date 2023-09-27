@@ -1,4 +1,4 @@
-package com.projetocomspring.projetocomspring;
+package com.danilo.projetocomspring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

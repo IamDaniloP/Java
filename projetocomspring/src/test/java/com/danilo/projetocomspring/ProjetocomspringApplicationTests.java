@@ -1,4 +1,4 @@
-package com.projetocomspring.projetocomspring;
+package com.danilo.projetocomspring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

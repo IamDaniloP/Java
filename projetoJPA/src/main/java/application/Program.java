@@ -31,7 +31,7 @@ public class Program {
     Pessoa p = em.find(Pessoa.class, 2);// recuperando dados
 
     em.getTransaction().begin();
-    em.remove(em.find(Pessoa.class, 1)); // seu parâmetro é um objeto.
+    em.remove(em.find(Pessoa.class, 5)); // seu parâmetro é um objeto.
     // para que a remoção funcione, o objeto precisa ser monitorado, ou seja, é preciso passar o objeto sendo recuperado do banco de dados.
     em.getTransaction().commit();
     System.out.println("Pronto! ");
